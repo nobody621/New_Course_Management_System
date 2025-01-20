@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Course_Management_System
 {
-    public partial class StudentLoginForm : Form
+    public partial class StdCourseCatalogForm : Form
     {
-        public StudentLoginForm()
+        public StdCourseCatalogForm()
         {
             InitializeComponent();
         }
 
         private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void StudentLoginForm_Load(object sender, EventArgs e)
         {
 
         }

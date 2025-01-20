@@ -19,7 +19,8 @@ namespace Course_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            StudentLoginForm stdLogin = new StudentLoginForm();
+            StdLoginForm stdLogin = new StdLoginForm();
+            this.Hide();
             stdLogin.Show();
         }
     }

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\new_course_management_system\\course_management_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\new_course_management_system\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\new_course_management_system\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\new_course_management_system\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\LoginForm.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\LoginForm.cs [Design]",
+              "Title": "StdCourseCatalogForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdCourseCatalogForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdCourseCatalogForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T07:42:04.574Z",
+              "WhenOpened": "2025-01-20T12:13:43.059Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StdLoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:43:19.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StdLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T10:40:04.87Z",
               "EditorCaption": " [Design]"
             }
           ]

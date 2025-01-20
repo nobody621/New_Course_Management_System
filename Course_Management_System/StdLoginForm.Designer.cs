@@ -1,6 +1,6 @@
 ﻿namespace Course_Management_System
 {
-    partial class StudentLoginForm
+    partial class StdLoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +38,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(160, 28);
@@ -49,6 +50,7 @@
             // 
             // button1
             // 
+            button1.Anchor = AnchorStyles.None;
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             button1.Location = new Point(244, 117);
             button1.Name = "button1";
@@ -60,6 +62,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             button2.Location = new Point(699, 12);
             button2.Name = "button2";
@@ -67,9 +70,11 @@
             button2.TabIndex = 3;
             button2.Text = "Logout";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.Anchor = AnchorStyles.None;
             button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
             button3.Location = new Point(244, 243);
             button3.Name = "button3";
@@ -77,9 +82,11 @@
             button3.TabIndex = 4;
             button3.Text = "Submit Assignments";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.Anchor = AnchorStyles.None;
             button4.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
             button4.Location = new Point(244, 178);
             button4.Name = "button4";
@@ -87,9 +94,11 @@
             button4.TabIndex = 4;
             button4.Text = "My Enrollments/Progress";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
+            button5.Anchor = AnchorStyles.None;
             button5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
             button5.Location = new Point(244, 303);
             button5.Name = "button5";
@@ -97,8 +106,9 @@
             button5.TabIndex = 5;
             button5.Text = "Manage Account";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
-            // StudentLoginForm
+            // StdLoginForm
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -111,7 +121,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label2);
-            Name = "StudentLoginForm";
+            Name = "StdLoginForm";
             Text = "StudentLoginFrom";
             Load += StudentLoginForm_Load;
             ResumeLayout(false);

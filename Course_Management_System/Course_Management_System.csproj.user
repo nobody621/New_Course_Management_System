@@ -4,7 +4,19 @@
     <Compile Update="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="StudentLoginForm.cs">
+    <Compile Update="StdCourseCatalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StdEnrollmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StdLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StdManageAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StdSubmitAssignmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
