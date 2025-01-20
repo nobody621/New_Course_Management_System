@@ -59,5 +59,15 @@ namespace Course_Management_System.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-01-19 at 14.12.29_e20950cf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

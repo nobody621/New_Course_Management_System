@@ -1,8 +1,8 @@
 namespace Course_Management_System
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -15,6 +15,12 @@ namespace Course_Management_System
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StudentLoginForm stdLogin = new StudentLoginForm();
+            stdLogin.Show();
         }
     }
 }
