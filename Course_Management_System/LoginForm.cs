@@ -23,5 +23,12 @@ namespace Course_Management_System
             this.Hide();
             stdLogin.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           InstructorDashboard dashboard = new InstructorDashboard();
+            this.Hide();
+            dashboard.Show();
+        }
     }
 }
