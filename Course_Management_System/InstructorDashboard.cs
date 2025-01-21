@@ -44,5 +44,12 @@ namespace Course_Management_System
             this.Hide();
             assignment.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            InstructorTrackStudentPerformance performance = new InstructorTrackStudentPerformance();
+            this.Hide();
+            performance.Show();
+        }
     }
 }

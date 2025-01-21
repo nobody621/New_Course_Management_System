@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InstructorDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorDashboard.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorDashboard.cs",
-              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAawCwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T10:49:33.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InstructorManageCourses.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T10:44:06.559Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstructorAssignments.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorAssignments.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorAssignments.cs",
-              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorAssignments.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorAssignments.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T10:38:09.163Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "InstructorTrackStudentPerformance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:03:27.657Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "InstructorDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorDashboard.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",

@@ -107,6 +107,7 @@
             button5.TabIndex = 1;
             button5.Text = "Track Student Performance";
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
