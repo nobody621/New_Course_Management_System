@@ -28,38 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
             label2 = new Label();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(12, 52);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(250, 125);
-            panel1.TabIndex = 1;
             // 
             // label2
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(277, 9);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(298, 22);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(261, 46);
+            label2.Size = new Size(212, 37);
             label2.TabIndex = 2;
             label2.Text = "Course Catalog";
             label2.Click += label2_Click;
             // 
             // StdCourseCatalogForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(835, 450);
+            ClientSize = new Size(799, 434);
             Controls.Add(label2);
-            Controls.Add(panel1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "StdCourseCatalogForm";
             Text = "StdCourseCatalogForm";
             ResumeLayout(false);
@@ -67,8 +61,6 @@
         }
 
         #endregion
-
-        private Panel panel1;
         private Label label2;
     }
 }
