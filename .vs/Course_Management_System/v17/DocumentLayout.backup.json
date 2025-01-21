@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StdLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\StdLoginForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T06:49:39.328Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
