@@ -46,3 +46,4 @@ C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\o
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorManageEnrollment.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorAssignments.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorTrackStudentPerformance.resources
+C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.instructorGenerateReport.resources

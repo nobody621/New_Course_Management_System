@@ -51,5 +51,12 @@ namespace Course_Management_System
             this.Hide();
             performance.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            instructorGenerateReport report = new instructorGenerateReport();
+            this.Hide();
+            report.Show();
+        }
     }
 }

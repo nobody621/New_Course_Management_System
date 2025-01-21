@@ -96,6 +96,7 @@
             button4.TabIndex = 1;
             button4.Text = "Generate Report";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
