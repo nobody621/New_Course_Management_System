@@ -37,5 +37,12 @@ namespace Course_Management_System
             this.Hide();
             enrollment.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            InstructorAssignments assignment = new InstructorAssignments();
+            this.Hide();
+            assignment.Show();
+        }
     }
 }
