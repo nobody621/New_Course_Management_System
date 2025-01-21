@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\pc\\source\\repos\\new_course_management_system\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAawBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:02:40.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InstructorManageCourses.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:01:41.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InstructorManageCourses.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\New_Course_Management_System\\Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:28:35.464Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,

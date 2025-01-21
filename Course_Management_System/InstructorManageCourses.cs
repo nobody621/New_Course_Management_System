@@ -16,5 +16,17 @@ namespace Course_Management_System
         {
             InitializeComponent();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            InstructorDashboard dashboard = new InstructorDashboard();
+            this.Hide();
+            dashboard.Show();
+        }
     }
 }
