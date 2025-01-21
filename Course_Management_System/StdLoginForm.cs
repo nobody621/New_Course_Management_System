@@ -33,29 +33,40 @@ namespace Course_Management_System
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show(); 
-            this.Close();
-        }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-            StdEnrollmentForm enrollment = new StdEnrollmentForm();
-            enrollment.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            StdSubmitAssignmentForm submitAssignment = new StdSubmitAssignmentForm();
-            submitAssignment.Show();
+            StdCourseCatalogForm course = new StdCourseCatalogForm();
+            this.Hide();
+            course.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            StdManageAccountForm manageAccount = new StdManageAccountForm();
-            manageAccount.Show();
+            StdEnrollmentForm enrollmentForm = new StdEnrollmentForm();
+            enrollmentForm.Show();
+            this.Hide();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            StdSubmitAssignmentForm assignment = new StdSubmitAssignmentForm();
+            this.Hide();
+            assignment.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            StdManageAccountForm manage = new StdManageAccountForm();
+            this.Hide();
+            manage.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LoginPage LoginPage = new LoginPage();  
+            LoginPage.Show();
+            this.Hide();
         }
     }
 }

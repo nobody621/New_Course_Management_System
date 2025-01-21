@@ -23,7 +23,6 @@ C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\b
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\bin\Debug\net8.0-windows\Course_Management_System.runtimeconfig.json
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\bin\Debug\net8.0-windows\Course_Management_System.dll
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\bin\Debug\net8.0-windows\Course_Management_System.pdb
-C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.LoginForm.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.Properties.Resources.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdCourseCatalogForm.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdLoginForm.resources
@@ -47,3 +46,6 @@ C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\o
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorAssignments.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorTrackStudentPerformance.resources
 C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.instructorGenerateReport.resources
+C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorManageAccount.resources
+C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StartPage.resources
+C:\Users\pc\Source\Repos\New_Course_Management_System\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.LoginPage.resources

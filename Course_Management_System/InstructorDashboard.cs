@@ -19,7 +19,7 @@ namespace Course_Management_System
 
         private void button6_Click(object sender, EventArgs e)
         {
-            LoginForm login = new LoginForm();
+            LoginPage login = new LoginPage();
             this.Hide();
             login.Show();
         }
@@ -57,6 +57,13 @@ namespace Course_Management_System
             instructorGenerateReport report = new instructorGenerateReport();
             this.Hide();
             report.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            InstructorManageAccount account = new InstructorManageAccount();
+            this.Hide();    
+            account.Show();
         }
     }
 }

@@ -28,91 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
-            button1 = new Button();
+            button7 = new Button();
+            button6 = new Button();
             button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             button5 = new Button();
+            button8 = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
-            // label2
+            // button7
             // 
-            label2.Anchor = AnchorStyles.None;
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(218, 11);
-            label2.Margin = new Padding(2, 0, 2, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(384, 37);
-            label2.TabIndex = 1;
-            label2.Text = "WELCOME \"[Student Name]\"";
-            label2.Click += label2_Click;
+            button7.Location = new Point(574, 417);
+            button7.Name = "button7";
+            button7.Size = new Size(126, 31);
+            button7.TabIndex = 6;
+            button7.Text = "Manage Account";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
-            // button1
+            // button6
             // 
-            button1.Anchor = AnchorStyles.None;
-            button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button1.Location = new Point(286, 121);
-            button1.Margin = new Padding(2);
-            button1.Name = "button1";
-            button1.Size = new Size(231, 44);
-            button1.TabIndex = 2;
-            button1.Text = "View Courses";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button6.Location = new Point(706, 417);
+            button6.Name = "button6";
+            button6.Size = new Size(91, 31);
+            button6.TabIndex = 7;
+            button6.Text = "Logout";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button2
             // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            button2.Location = new Point(720, 11);
-            button2.Margin = new Padding(2);
+            button2.BackColor = SystemColors.Control;
+            button2.Font = new Font("Segoe UI", 12F);
+            button2.Location = new Point(272, 271);
             button2.Name = "button2";
-            button2.Size = new Size(69, 35);
-            button2.TabIndex = 3;
-            button2.Text = "Logout";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
-            button3.Location = new Point(286, 230);
-            button3.Margin = new Padding(2);
-            button3.Name = "button3";
-            button3.Size = new Size(231, 38);
-            button3.TabIndex = 4;
-            button3.Text = "Submit Assignments";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Anchor = AnchorStyles.None;
-            button4.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
-            button4.Location = new Point(275, 178);
-            button4.Margin = new Padding(2);
-            button4.Name = "button4";
-            button4.Size = new Size(254, 38);
-            button4.TabIndex = 4;
-            button4.Text = "My Enrollments/Progress";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            button2.Size = new Size(239, 44);
+            button2.TabIndex = 9;
+            button2.Text = "Submit Assignments";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click_1;
             // 
             // button5
             // 
-            button5.Anchor = AnchorStyles.None;
-            button5.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold | FontStyle.Italic);
-            button5.Location = new Point(286, 285);
-            button5.Margin = new Padding(2);
+            button5.BackColor = SystemColors.Control;
+            button5.Font = new Font("Segoe UI", 12F);
+            button5.Location = new Point(272, 197);
             button5.Name = "button5";
-            button5.Size = new Size(231, 38);
-            button5.TabIndex = 5;
-            button5.Text = "Manage Account";
-            button5.UseVisualStyleBackColor = true;
+            button5.Size = new Size(239, 45);
+            button5.TabIndex = 10;
+            button5.Text = "My Enrollment/Progress";
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
+            // 
+            // button8
+            // 
+            button8.BackColor = SystemColors.Control;
+            button8.Font = new Font("Segoe UI", 12F);
+            button8.Location = new Point(272, 127);
+            button8.Name = "button8";
+            button8.Size = new Size(239, 47);
+            button8.TabIndex = 11;
+            button8.Text = "View Courses";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(235, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(143, 37);
+            label1.TabIndex = 8;
+            label1.Text = "Welcome ";
             // 
             // StdLoginForm
             // 
@@ -121,12 +110,12 @@
             BackgroundImage = Properties.Resources.WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 451);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label2);
+            Controls.Add(button5);
+            Controls.Add(button8);
+            Controls.Add(label1);
+            Controls.Add(button7);
+            Controls.Add(button6);
             Margin = new Padding(2);
             Name = "StdLoginForm";
             Text = "StudentLoginFrom";
@@ -136,11 +125,11 @@
         }
 
         #endregion
-        private Label label2;
-        private Button button1;
+        private Button button7;
+        private Button button6;
         private Button button2;
-        private Button button3;
-        private Button button4;
         private Button button5;
+        private Button button8;
+        private Label label1;
     }
 }

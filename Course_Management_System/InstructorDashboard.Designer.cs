@@ -128,6 +128,7 @@
             button7.TabIndex = 1;
             button7.Text = "Manage Account";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // InstructorDashboard
             // 
