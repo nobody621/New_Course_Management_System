@@ -30,6 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StdManageAccountForm));
             label2 = new Label();
+            textBox3 = new TextBox();
+            label4 = new Label();
+            textBox2 = new TextBox();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            button2 = new Button();
+            pictureBox1 = new PictureBox();
+            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -38,23 +48,130 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(276, 9);
-            label2.Margin = new Padding(2, 0, 2, 0);
+            label2.Location = new Point(355, 13);
             label2.Name = "label2";
-            label2.Size = new Size(233, 37);
+            label2.Size = new Size(290, 46);
             label2.TabIndex = 3;
             label2.Text = "Manage Account";
             // 
+            // textBox3
+            // 
+            textBox3.Anchor = AnchorStyles.None;
+            textBox3.Location = new Point(489, 359);
+            textBox3.Margin = new Padding(4);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(217, 29);
+            textBox3.TabIndex = 8;
+            // 
+            // label4
+            // 
+            label4.Anchor = AnchorStyles.None;
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F);
+            label4.Location = new Point(328, 356);
+            label4.Margin = new Padding(4, 0, 4, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(93, 28);
+            label4.TabIndex = 5;
+            label4.Text = "Password";
+            // 
+            // textBox2
+            // 
+            textBox2.Anchor = AnchorStyles.None;
+            textBox2.Location = new Point(489, 283);
+            textBox2.Margin = new Padding(4);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(217, 29);
+            textBox2.TabIndex = 9;
+            // 
+            // label3
+            // 
+            label3.Anchor = AnchorStyles.None;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F);
+            label3.Location = new Point(328, 280);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(59, 28);
+            label3.TabIndex = 6;
+            label3.Text = "Email";
+            // 
+            // textBox1
+            // 
+            textBox1.Anchor = AnchorStyles.None;
+            textBox1.Location = new Point(489, 213);
+            textBox1.Margin = new Padding(4);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(217, 29);
+            textBox1.TabIndex = 10;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F);
+            label1.Location = new Point(328, 210);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(64, 28);
+            label1.TabIndex = 7;
+            label1.Text = "Name";
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.None;
+            button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(455, 434);
+            button2.Margin = new Padding(4);
+            button2.Name = "button2";
+            button2.Size = new Size(113, 36);
+            button2.TabIndex = 4;
+            button2.Text = "Save";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Anchor = AnchorStyles.None;
+            pictureBox1.Location = new Point(213, 107);
+            pictureBox1.Margin = new Padding(4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(602, 417);
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.None;
+            button1.Location = new Point(13, 13);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(96, 32);
+            button1.TabIndex = 12;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // StdManageAccountForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1029, 630);
+            Controls.Add(button1);
+            Controls.Add(textBox3);
+            Controls.Add(label4);
+            Controls.Add(textBox2);
+            Controls.Add(label3);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(button2);
+            Controls.Add(pictureBox1);
             Controls.Add(label2);
+            Margin = new Padding(4);
             Name = "StdManageAccountForm";
             Text = "StdManageAccountForm";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -62,5 +179,14 @@
         #endregion
 
         private Label label2;
+        private TextBox textBox3;
+        private Label label4;
+        private TextBox textBox2;
+        private Label label3;
+        private TextBox textBox1;
+        private Label label1;
+        private Button button2;
+        private PictureBox pictureBox1;
+        private Button button1;
     }
 }

@@ -16,5 +16,12 @@ namespace Course_Management_System
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StdCourseCatalogForm stdcourse = new StdCourseCatalogForm();
+            this.Hide();
+            stdcourse.Show();
+        }
     }
 }

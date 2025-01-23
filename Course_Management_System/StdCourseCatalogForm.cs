@@ -21,5 +21,29 @@ namespace Course_Management_System
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StdLoginForm stdlogin = new StdLoginForm();
+            this.Hide();
+            stdlogin.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StdEnrollmentForm stdenroll = new StdEnrollmentForm();
+            this.Hide();
+            stdenroll.Show();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -3,44 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\startpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\startpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\startpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\mohan\\onedrive\\desktop\\degree\\sem 2\\software\\assignment\\c sharp files\\c# files\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,99 +90,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "instructorGenerateReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\instructorGenerateReport.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\instructorGenerateReport.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\instructorGenerateReport.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\instructorGenerateReport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:45:20.572Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InstructorManageAccount.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageAccount.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageAccount.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageAccount.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageAccount.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:46:10.61Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstructorManageCourses.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageCourses.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageCourses.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:46:22.624Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InstructorManageEnrollment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageEnrollment.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageEnrollment.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:47:09.739Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InstructorTrackStudentPerformance.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorTrackStudentPerformance.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorTrackStudentPerformance.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:47:28.52Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstructorDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "StdManageAccountForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdManageAccountForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdManageAccountForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdManageAccountForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:50:50.97Z",
+              "WhenOpened": "2025-01-22T03:52:22.926Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InstructorAssignments.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorAssignments.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorAssignments.cs",
-              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorAssignments.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorAssignments.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "StdEnrollmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdEnrollmentForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:50:45.909Z",
+              "WhenOpened": "2025-01-22T03:52:20.301Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "StdCourseCatalogForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdCourseCatalogForm.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
@@ -154,7 +134,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "StdLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdLoginForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:52:21.806Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StdSubmitAssignmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdSubmitAssignmentForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdSubmitAssignmentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:52:24.579Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "StartPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StartPage.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\StartPage.cs",
@@ -166,7 +170,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "InstructorManageEnrollment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageEnrollment.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageEnrollment.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:47:09.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstructorManageAccount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageAccount.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageAccount.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageAccount.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:46:10.61Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StdSubmitAssignmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:29:38.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\LoginPage.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\LoginPage.cs",
@@ -175,6 +216,128 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T03:47:45.7Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StdManageAccountForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdManageAccountForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdManageAccountForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:26:43.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InstructorDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA1wB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:11:54.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StdEnrollmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:24:57.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StdCourseCatalogForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:20:00.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StdLoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIA1wCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T08:13:53.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InstructorDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorDashboard.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:50:50.97Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InstructorTrackStudentPerformance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:47:28.52Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "instructorGenerateReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\instructorGenerateReport.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\instructorGenerateReport.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\instructorGenerateReport.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\instructorGenerateReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:45:20.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InstructorManageCourses.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:46:22.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InstructorAssignments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorAssignments.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorAssignments.cs",
+              "ToolTip": "C:\\Users\\mohan\\OneDrive\\Desktop\\DEGREE\\Sem 2\\Software\\Assignment\\C Sharp Files\\C# Files\\Course_Management_System\\InstructorAssignments.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorAssignments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T03:50:45.909Z"
             }
           ]
         }
