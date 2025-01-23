@@ -64,6 +64,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(998, 176);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 
@@ -175,6 +176,7 @@
             button1.TabIndex = 3;
             button1.Text = "Save";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -186,6 +188,7 @@
             button2.TabIndex = 3;
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label6
             // 
@@ -208,6 +211,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(234, 34);
             textBox1.TabIndex = 4;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // richTextBox1
             // 
@@ -217,6 +221,7 @@
             richTextBox1.Size = new Size(234, 32);
             richTextBox1.TabIndex = 5;
             richTextBox1.Text = "";
+            richTextBox1.TextChanged += richTextBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -225,6 +230,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(234, 34);
             textBox2.TabIndex = 4;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
@@ -233,6 +239,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(234, 34);
             textBox3.TabIndex = 4;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // pictureBox1
             // 

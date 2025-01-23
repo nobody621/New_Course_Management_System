@@ -45,9 +45,9 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.Location = new Point(4, 4);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(96, 32);
+            button1.Size = new Size(85, 30);
             button1.TabIndex = 0;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -57,20 +57,21 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(41, 574);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Location = new Point(36, 547);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
-            button2.Size = new Size(215, 39);
+            button2.Size = new Size(191, 37);
             button2.TabIndex = 0;
             button2.Text = "View Detailed Report";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(27, 113);
+            label1.Location = new Point(24, 108);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(156, 25);
@@ -80,11 +81,12 @@
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.None;
-            textBox1.Location = new Point(195, 113);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Location = new Point(173, 108);
+            textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(252, 29);
+            textBox1.Size = new Size(224, 27);
             textBox1.TabIndex = 2;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
@@ -92,7 +94,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(291, 35);
+            label2.Location = new Point(259, 33);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(484, 46);
@@ -104,12 +106,13 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(27, 165);
-            dataGridView1.Margin = new Padding(4, 4, 4, 4);
+            dataGridView1.Location = new Point(24, 157);
+            dataGridView1.Margin = new Padding(4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(969, 388);
+            dataGridView1.Size = new Size(861, 370);
             dataGridView1.TabIndex = 3;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 
@@ -141,18 +144,18 @@
             // 
             // InstructorTrackStudentPerformance
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1029, 630);
+            ClientSize = new Size(915, 600);
             Controls.Add(dataGridView1);
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "InstructorTrackStudentPerformance";
             Text = "InstructorTrackStudentPerformance";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
