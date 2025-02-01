@@ -105,3 +105,28 @@ C:\Users\User\Desktop\folders in\SDAM\Correct2\Course_Management_System\obj\Debu
 C:\Users\User\Desktop\folders in\SDAM\Correct2\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.dll
 C:\Users\User\Desktop\folders in\SDAM\Correct2\Course_Management_System\obj\Debug\net8.0-windows\refint\Course_Management_System.dll
 C:\Users\User\Desktop\folders in\SDAM\Correct2\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.pdb
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.csproj.AssemblyReference.cache
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorAssignments.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorDashboard.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.instructorGenerateReport.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorManageAccount.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorManageCourses.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorManageEnrollment.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.InstructorTrackStudentPerformance.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.LoginPage.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.Properties.Resources.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StartPage.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdCourseCatalogForm.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdEnrollmentForm.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdLoginForm.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdManageAccountForm.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.StdSubmitAssignmentForm.resources
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.csproj.GenerateResource.cache
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.AssemblyInfoInputs.cache
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.AssemblyInfo.cs
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.sourcelink.json
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.dll
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\refint\Course_Management_System.dll
+C:\Users\mohan\OneDrive\Desktop\DEGREE\Sem 2\Software\Assignment\C Sharp Files\New New Sdam\Course_Management_System\obj\Debug\net8.0-windows\Course_Management_System.pdb
