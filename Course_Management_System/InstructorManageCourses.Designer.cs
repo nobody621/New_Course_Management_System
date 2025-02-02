@@ -105,11 +105,12 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(412, 27);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(228, 37);
+            label1.Size = new Size(174, 30);
             label1.TabIndex = 1;
             label1.Text = "Manage Courses";
             // 
@@ -122,7 +123,7 @@
             label2.Location = new Point(252, 304);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(270, 37);
+            label2.Size = new Size(204, 30);
             label2.TabIndex = 2;
             label2.Text = "Create/Edit Courses";
             // 
@@ -135,7 +136,7 @@
             label3.Location = new Point(267, 363);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(129, 28);
+            label3.Size = new Size(105, 21);
             label3.TabIndex = 2;
             label3.Text = "Course Name";
             // 
@@ -148,7 +149,7 @@
             label4.Location = new Point(267, 413);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(177, 28);
+            label4.Size = new Size(142, 21);
             label4.TabIndex = 2;
             label4.Text = "Course Description";
             // 
@@ -161,7 +162,7 @@
             label5.Location = new Point(267, 463);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(89, 28);
+            label5.Size = new Size(71, 21);
             label5.TabIndex = 2;
             label5.Text = "Duration";
             label5.Click += label5_Click;
@@ -199,7 +200,7 @@
             label6.Location = new Point(267, 516);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(83, 28);
+            label6.Size = new Size(68, 21);
             label6.TabIndex = 2;
             label6.Text = "Syllabus";
             label6.Click += label5_Click;
@@ -209,7 +210,7 @@
             textBox1.Anchor = AnchorStyles.None;
             textBox1.Location = new Point(565, 360);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(234, 34);
+            textBox1.Size = new Size(234, 29);
             textBox1.TabIndex = 4;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -228,7 +229,7 @@
             textBox2.Anchor = AnchorStyles.None;
             textBox2.Location = new Point(565, 410);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(234, 34);
+            textBox2.Size = new Size(234, 29);
             textBox2.TabIndex = 4;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
@@ -237,7 +238,7 @@
             textBox3.Anchor = AnchorStyles.None;
             textBox3.Location = new Point(565, 460);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(234, 34);
+            textBox3.Size = new Size(234, 29);
             textBox3.TabIndex = 4;
             textBox3.TextChanged += textBox3_TextChanged;
             // 
@@ -252,10 +253,9 @@
             // 
             // button3
             // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Location = new Point(5, 7);
+            button3.Location = new Point(3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(63, 39);
+            button3.Size = new Size(63, 29);
             button3.TabIndex = 7;
             button3.Text = "Back";
             button3.UseVisualStyleBackColor = true;
@@ -263,7 +263,7 @@
             // 
             // InstructorManageCourses
             // 
-            AutoScaleDimensions = new SizeF(11F, 28F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;

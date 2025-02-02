@@ -36,6 +36,7 @@
             button2 = new Button();
             button3 = new Button();
             label1 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -44,11 +45,11 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(8, 94);
-            dataGridView1.Margin = new Padding(4);
+            dataGridView1.Location = new Point(7, 70);
+            dataGridView1.Margin = new Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(887, 359);
+            dataGridView1.Size = new Size(776, 269);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -77,10 +78,10 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 12F);
-            button2.Location = new Point(268, 497);
-            button2.Margin = new Padding(4);
+            button2.Location = new Point(234, 373);
+            button2.Margin = new Padding(4, 3, 4, 3);
             button2.Name = "button2";
-            button2.Size = new Size(147, 60);
+            button2.Size = new Size(129, 45);
             button2.TabIndex = 2;
             button2.Text = "Approve All";
             button2.UseVisualStyleBackColor = true;
@@ -90,10 +91,10 @@
             // 
             button3.Anchor = AnchorStyles.None;
             button3.Font = new Font("Segoe UI", 12F);
-            button3.Location = new Point(491, 497);
-            button3.Margin = new Padding(4);
+            button3.Location = new Point(430, 373);
+            button3.Margin = new Padding(4, 3, 4, 3);
             button3.Name = "button3";
-            button3.Size = new Size(147, 60);
+            button3.Size = new Size(129, 45);
             button3.TabIndex = 2;
             button3.Text = "Reject All";
             button3.UseVisualStyleBackColor = true;
@@ -105,25 +106,36 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(316, 26);
+            label1.Location = new Point(276, 20);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(335, 46);
+            label1.Size = new Size(269, 37);
             label1.TabIndex = 3;
             label1.Text = "Manage Enrollment";
             // 
+            // button1
+            // 
+            button1.Location = new Point(4, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // InstructorManageEnrollment
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(915, 600);
+            ClientSize = new Size(801, 450);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(dataGridView1);
-            Margin = new Padding(4);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "InstructorManageEnrollment";
             Text = "InstructorManageEnrollment";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -139,5 +151,6 @@
         private Button button2;
         private Button button3;
         private Label label1;
+        private Button button1;
     }
 }

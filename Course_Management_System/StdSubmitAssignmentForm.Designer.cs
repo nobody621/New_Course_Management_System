@@ -46,9 +46,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(273, 34);
+            label2.Location = new Point(239, 26);
             label2.Name = "label2";
-            label2.Size = new Size(348, 46);
+            label2.Size = new Size(279, 37);
             label2.TabIndex = 3;
             label2.Text = "Submit Assignments";
             // 
@@ -57,11 +57,11 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(16, 102);
-            dataGridView1.Margin = new Padding(4);
+            dataGridView1.Location = new Point(14, 76);
+            dataGridView1.Margin = new Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(887, 327);
+            dataGridView1.Size = new Size(776, 312);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -89,10 +89,10 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
-            button1.Location = new Point(12, 12);
-            button1.Margin = new Padding(4);
+            button1.Location = new Point(10, 9);
+            button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
-            button1.Size = new Size(85, 30);
+            button1.Size = new Size(74, 22);
             button1.TabIndex = 5;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -102,10 +102,10 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(640, 477);
-            button2.Margin = new Padding(4);
+            button2.Location = new Point(557, 404);
+            button2.Margin = new Padding(4, 3, 4, 3);
             button2.Name = "button2";
-            button2.Size = new Size(123, 45);
+            button2.Size = new Size(108, 34);
             button2.TabIndex = 9;
             button2.Text = "Upload File";
             button2.UseVisualStyleBackColor = true;
@@ -115,10 +115,10 @@
             // 
             button3.Anchor = AnchorStyles.None;
             button3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(779, 477);
-            button3.Margin = new Padding(4);
+            button3.Location = new Point(680, 404);
+            button3.Margin = new Padding(4, 3, 4, 3);
             button3.Name = "button3";
-            button3.Size = new Size(123, 45);
+            button3.Size = new Size(108, 34);
             button3.TabIndex = 10;
             button3.Text = "Submit";
             button3.UseVisualStyleBackColor = true;
@@ -126,17 +126,17 @@
             // 
             // StdSubmitAssignmentForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(915, 600);
+            ClientSize = new Size(801, 450);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
-            Margin = new Padding(4);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "StdSubmitAssignmentForm";
             Text = "StdSubmitAssignmentForm";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

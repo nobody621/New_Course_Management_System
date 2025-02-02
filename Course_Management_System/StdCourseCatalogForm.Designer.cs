@@ -46,20 +46,19 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(383, 31);
+            label2.Location = new Point(298, 22);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(261, 46);
+            label2.Size = new Size(212, 37);
             label2.TabIndex = 2;
             label2.Text = "Course Catalog";
             label2.Click += label2_Click;
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.None;
-            button1.Location = new Point(13, 13);
-            button1.Margin = new Padding(4);
+            button1.Location = new Point(10, 9);
             button1.Name = "button1";
-            button1.Size = new Size(96, 32);
+            button1.Size = new Size(75, 23);
             button1.TabIndex = 4;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -69,10 +68,9 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(915, 500);
-            button2.Margin = new Padding(4);
+            button2.Location = new Point(711, 388);
             button2.Name = "button2";
-            button2.Size = new Size(96, 47);
+            button2.Size = new Size(75, 34);
             button2.TabIndex = 8;
             button2.Text = "Enroll";
             button2.UseVisualStyleBackColor = true;
@@ -111,11 +109,10 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
-            dataGridView1.Location = new Point(16, 101);
-            dataGridView1.Margin = new Padding(4);
+            dataGridView1.Location = new Point(12, 72);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(995, 264);
+            dataGridView1.Size = new Size(774, 299);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
@@ -128,15 +125,16 @@
             // 
             // StdCourseCatalogForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1027, 608);
+            ClientSize = new Size(799, 434);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "StdCourseCatalogForm";
             Text = "StdCourseCatalogForm";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

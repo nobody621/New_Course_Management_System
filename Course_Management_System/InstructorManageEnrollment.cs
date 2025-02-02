@@ -86,5 +86,12 @@ namespace Course_Management_System
                 MessageBox.Show("There are no enrollments to reject.", "Confirmation", MessageBoxButtons.OK);
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            InstructorDashboard instructorDashboard = new InstructorDashboard();
+            instructorDashboard.Show();
+            this.Hide();
+        }
     }
 }

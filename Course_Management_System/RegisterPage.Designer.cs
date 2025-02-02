@@ -43,6 +43,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Location = new Point(182, 78);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(434, 348);
@@ -51,6 +52,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -72,6 +74,7 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             label2.Location = new Point(246, 153);
@@ -82,6 +85,7 @@
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             label3.Location = new Point(246, 220);
@@ -92,6 +96,7 @@
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             label4.Location = new Point(246, 286);
@@ -102,6 +107,7 @@
             // 
             // textBox1
             // 
+            textBox1.Anchor = AnchorStyles.None;
             textBox1.Location = new Point(350, 155);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(195, 23);
@@ -109,6 +115,7 @@
             // 
             // textBox2
             // 
+            textBox2.Anchor = AnchorStyles.None;
             textBox2.Location = new Point(350, 217);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(195, 23);
@@ -116,6 +123,7 @@
             // 
             // textBox3
             // 
+            textBox3.Anchor = AnchorStyles.None;
             textBox3.Location = new Point(350, 288);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(195, 23);
@@ -123,6 +131,7 @@
             // 
             // button2
             // 
+            button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(350, 356);
             button2.Name = "button2";

@@ -44,9 +44,9 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(309, 12);
+            label2.Location = new Point(270, 9);
             label2.Name = "label2";
-            label2.Size = new Size(275, 46);
+            label2.Size = new Size(221, 37);
             label2.TabIndex = 3;
             label2.Text = "My Enrollement";
             // 
@@ -55,11 +55,11 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(12, 88);
-            dataGridView1.Margin = new Padding(4);
+            dataGridView1.Location = new Point(10, 66);
+            dataGridView1.Margin = new Padding(4, 3, 4, 3);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(887, 328);
+            dataGridView1.Size = new Size(776, 246);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -86,11 +86,10 @@
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.None;
-            button1.Location = new Point(12, 12);
-            button1.Margin = new Padding(4);
+            button1.Location = new Point(10, 9);
+            button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
-            button1.Size = new Size(85, 30);
+            button1.Size = new Size(74, 22);
             button1.TabIndex = 5;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -98,15 +97,15 @@
             // 
             // StdEnrollmentForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(915, 600);
+            ClientSize = new Size(801, 450);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
-            Margin = new Padding(4);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "StdEnrollmentForm";
             Text = "b v";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
