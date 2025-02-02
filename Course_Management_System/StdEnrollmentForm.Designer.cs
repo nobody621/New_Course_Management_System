@@ -108,6 +108,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "StdEnrollmentForm";
             Text = "b v";
+            Load += StdEnrollmentForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

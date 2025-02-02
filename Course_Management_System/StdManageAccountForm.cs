@@ -66,5 +66,10 @@ namespace Course_Management_System
                 MessageBox.Show("Error updating account", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void StdManageAccountForm_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

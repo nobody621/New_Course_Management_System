@@ -160,6 +160,7 @@
             Controls.Add(pictureBox1);
             Name = "RegisterPage";
             Text = "RegisterPage";
+            Load += RegisterPage_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

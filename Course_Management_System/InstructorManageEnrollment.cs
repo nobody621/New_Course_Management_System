@@ -93,5 +93,10 @@ namespace Course_Management_System
             instructorDashboard.Show();
             this.Hide();
         }
+
+        private void InstructorManageEnrollment_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

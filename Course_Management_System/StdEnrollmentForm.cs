@@ -68,6 +68,11 @@ namespace Course_Management_System
         {
 
         }
+
+        private void StdEnrollmentForm_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 
     public class EnrolledCourseDisplay

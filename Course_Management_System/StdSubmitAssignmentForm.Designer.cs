@@ -139,6 +139,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "StdSubmitAssignmentForm";
             Text = "StdSubmitAssignmentForm";
+            Load += StdSubmitAssignmentForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

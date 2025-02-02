@@ -134,9 +134,10 @@
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label2);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "StdCourseCatalogForm";
             Text = "StdCourseCatalogForm";
+            Load += StdCourseCatalogForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -48,5 +48,10 @@ namespace Course_Management_System
         {
             // TODO: view detailed student performance
         }
+
+        private void InstructorTrackStudentPerformance_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

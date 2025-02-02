@@ -99,5 +99,10 @@ namespace Course_Management_System
             comboBox1.SelectedIndex = -1;
 
         }
+
+        private void InstructorAssignments_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

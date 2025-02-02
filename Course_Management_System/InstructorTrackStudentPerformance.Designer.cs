@@ -157,6 +157,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "InstructorTrackStudentPerformance";
             Text = "InstructorTrackStudentPerformance";
+            Load += InstructorTrackStudentPerformance_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

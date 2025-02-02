@@ -30,6 +30,7 @@ namespace Course_Management_System
         }
         private void StudentLoginForm_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
         }
         private void button8_Click(object sender, EventArgs e)
         {

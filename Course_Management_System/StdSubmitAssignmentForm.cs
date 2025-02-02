@@ -97,6 +97,11 @@ namespace Course_Management_System
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void StdSubmitAssignmentForm_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
     public class AssignmentDisplay
     {

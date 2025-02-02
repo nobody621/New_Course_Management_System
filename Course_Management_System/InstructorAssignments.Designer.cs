@@ -146,7 +146,7 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Location = new Point(610, 526);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
             button2.Size = new Size(97, 32);
             button2.TabIndex = 12;
@@ -158,7 +158,7 @@
             // 
             button3.Anchor = AnchorStyles.None;
             button3.Location = new Point(505, 526);
-            button3.Margin = new Padding(4, 4, 4, 4);
+            button3.Margin = new Padding(4);
             button3.Name = "button3";
             button3.Size = new Size(97, 32);
             button3.TabIndex = 13;
@@ -275,6 +275,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "InstructorAssignments";
             Text = "InstructorAssignments";
+            Load += InstructorAssignments_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

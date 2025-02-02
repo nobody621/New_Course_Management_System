@@ -155,6 +155,7 @@
             Controls.Add(label1);
             Name = "InstructorDashboard";
             Text = "InstructorDashboard";
+            Load += InstructorDashboard_Load;
             ResumeLayout(false);
             PerformLayout();
         }

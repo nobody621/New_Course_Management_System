@@ -26,7 +26,7 @@ namespace Course_Management_System
 
         private void InstructorManageAccount_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

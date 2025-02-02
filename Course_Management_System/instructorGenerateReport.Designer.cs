@@ -219,6 +219,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "instructorGenerateReport";
             Text = "instructorGenerateReport";
+            Load += instructorGenerateReport_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

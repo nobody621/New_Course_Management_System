@@ -68,5 +68,10 @@ namespace Course_Management_System
         {
             //Export data to csv or pdf.
         }
+
+        private void instructorGenerateReport_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

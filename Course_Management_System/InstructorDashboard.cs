@@ -62,8 +62,13 @@ namespace Course_Management_System
         private void button7_Click(object sender, EventArgs e)
         {
             InstructorManageAccount account = new InstructorManageAccount();
-            this.Hide();    
+            this.Hide();
             account.Show();
+        }
+
+        private void InstructorDashboard_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

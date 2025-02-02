@@ -30,5 +30,10 @@ namespace Course_Management_System
             login.Show();
             this.Hide();
         }
+
+        private void RegisterPage_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

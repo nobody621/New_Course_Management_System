@@ -138,6 +138,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "InstructorManageEnrollment";
             Text = "InstructorManageEnrollment";
+            Load += InstructorManageEnrollment_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

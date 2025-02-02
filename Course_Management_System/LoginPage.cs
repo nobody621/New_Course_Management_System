@@ -114,5 +114,10 @@ namespace Course_Management_System
             register.Show();
             this.Hide();
         }
+
+        private void LoginPage_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

@@ -287,6 +287,7 @@
             Margin = new Padding(4);
             Name = "InstructorManageCourses";
             Text = "InstructorManageCourses";
+            Load += InstructorManageCourses_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

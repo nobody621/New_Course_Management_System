@@ -96,5 +96,10 @@ namespace Course_Management_System
             textBox3.Text = "";
             richTextBox1.Text = "";
         }
+
+        private void InstructorManageCourses_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

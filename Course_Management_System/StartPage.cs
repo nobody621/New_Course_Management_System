@@ -9,7 +9,7 @@ namespace Course_Management_System
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
