@@ -44,7 +44,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(348, 13);
+            label2.Location = new Point(309, 12);
             label2.Name = "label2";
             label2.Size = new Size(275, 46);
             label2.TabIndex = 3;
@@ -55,12 +55,13 @@
             dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(13, 92);
+            dataGridView1.Location = new Point(12, 88);
             dataGridView1.Margin = new Padding(4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(998, 344);
+            dataGridView1.Size = new Size(887, 328);
             dataGridView1.TabIndex = 4;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // Column1
             // 
@@ -86,10 +87,10 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
-            button1.Location = new Point(13, 13);
+            button1.Location = new Point(12, 12);
             button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(96, 32);
+            button1.Size = new Size(85, 30);
             button1.TabIndex = 5;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -97,11 +98,11 @@
             // 
             // StdEnrollmentForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1029, 630);
+            ClientSize = new Size(915, 600);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label2);

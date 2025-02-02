@@ -8,7 +8,7 @@ namespace Course_Management_System
 
         public DatabaseHelper(string server, string database, string user, string password)
         {
-            _connectionString = $"server={server};database={database};user={user};password={password};";
+            _connectionString = $"server=localhost;database=CourseManagementSystem;user=root;password=;";
         }
 
         public MySqlConnection GetConnection()
