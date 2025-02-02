@@ -25,6 +25,9 @@
     <Compile Update="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RegisterPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="StartPage.cs">
       <SubType>Form</SubType>
     </Compile>

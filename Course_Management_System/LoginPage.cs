@@ -107,5 +107,12 @@ namespace Course_Management_System
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            RegisterPage register = new RegisterPage();
+            register.Show();
+            this.Hide();
+        }
     }
 }
