@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms; //Needed for the messagebox
 
 namespace Course_Management_System
 {
@@ -49,6 +50,12 @@ namespace Course_Management_System
 
         public bool AddCourse(Course course)
         {
+            if (string.IsNullOrEmpty(course.CourseName) || string.IsNullOrEmpty(course.Description) ||
+                string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
+            {
+                MessageBox.Show("All fields are required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to invalid input
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -67,15 +74,26 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to database error
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error Adding Course: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to unexpected error
             }
-            return false;
         }
 
         public bool UpdateCourse(Course course)
         {
+            if (string.IsNullOrEmpty(course.CourseName) || string.IsNullOrEmpty(course.Description) ||
+               string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
+            {
+                MessageBox.Show("All fields are required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to invalid input
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -95,11 +113,16 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to database error
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error Updating course: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to unexpected error
             }
-            return false;
         }
 
         public bool DeleteCourse(int courseId)
@@ -118,11 +141,16 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to database error
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting course: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to unexpected error
             }
-            return false;
         }
     }
 }
