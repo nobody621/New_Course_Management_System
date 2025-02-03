@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+
 namespace Course_Management_System
 {
     public interface IDataAccess<T>

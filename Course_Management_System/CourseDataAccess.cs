@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-using System.Windows.Forms; //Needed for the messagebox
+using System.Windows.Forms;
 
 namespace Course_Management_System
 {
@@ -56,22 +56,16 @@ namespace Course_Management_System
                     }
                 }
             }
-            catch (MySqlException ex)
-            {
-                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             catch (Exception ex)
             {
-                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                Console.WriteLine($"Error getting courses: {ex.Message}");
             }
             return courses;
         }
-
         public bool AddCourse(Course course)
         {
             if (string.IsNullOrEmpty(course.CourseName) || string.IsNullOrEmpty(course.Description) ||
-                string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
+                  string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
             {
                 MessageBox.Show("All fields are required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false; // Indicate failure due to invalid input
@@ -105,11 +99,10 @@ namespace Course_Management_System
                 return false; // Indicate failure due to unexpected error
             }
         }
-
         public bool UpdateCourse(Course course)
         {
             if (string.IsNullOrEmpty(course.CourseName) || string.IsNullOrEmpty(course.Description) ||
-                string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
+                 string.IsNullOrEmpty(course.Duration) || string.IsNullOrEmpty(course.Syllabus))
             {
                 MessageBox.Show("All fields are required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false; // Indicate failure due to invalid input
