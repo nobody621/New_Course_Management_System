@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\PULL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\pull\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\pull\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -19,11 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StdEnrollmentForm.cs",
+              "DocumentMoniker": "C:\\PULL\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ToolTip": "C:\\PULL\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:16:53.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StdEnrollmentForm.cs [Design]",
               "DocumentMoniker": "C:\\PULL\\Course_Management_System\\StdEnrollmentForm.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
-              "ToolTip": "C:\\PULL\\Course_Management_System\\StdEnrollmentForm.cs [Design]*",
-              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs [Design]*",
+              "ToolTip": "C:\\PULL\\Course_Management_System\\StdEnrollmentForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T06:07:24.778Z",
               "EditorCaption": " [Design]"

@@ -30,28 +30,61 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InstructorManageEnrollment));
             dataGridView1 = new DataGridView();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
-            button2 = new Button();
-            button3 = new Button();
-            label1 = new Label();
-            button1 = new Button();
+            Action = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // dataGridView1
             // 
-            dataGridView1.Anchor = AnchorStyles.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3 });
-            dataGridView1.Location = new Point(7, 70);
-            dataGridView1.Margin = new Padding(4, 3, 4, 3);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Action });
+            dataGridView1.Location = new Point(8, 93);
+            dataGridView1.Margin = new Padding(5, 4, 5, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(776, 269);
+            dataGridView1.Size = new Size(887, 421);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // label1
+            // 
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(315, 27);
+            label1.Margin = new Padding(5, 0, 5, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(335, 46);
+            label1.TabIndex = 3;
+            label1.Text = "Manage Enrollment";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(5, 3);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(86, 31);
+            button1.TabIndex = 4;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(12, 537);
+            button2.Name = "button2";
+            button2.Size = new Size(121, 51);
+            button2.TabIndex = 7;
+            button2.Text = "Enroll";
+            button2.UseVisualStyleBackColor = true;
             // 
             // Column1
             // 
@@ -74,68 +107,26 @@
             Column3.MinimumWidth = 6;
             Column3.Name = "Column3";
             // 
-            // button2
+            // Action
             // 
-            button2.Anchor = AnchorStyles.None;
-            button2.Font = new Font("Segoe UI", 12F);
-            button2.Location = new Point(234, 373);
-            button2.Margin = new Padding(4, 3, 4, 3);
-            button2.Name = "button2";
-            button2.Size = new Size(129, 45);
-            button2.TabIndex = 2;
-            button2.Text = "Approve All";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Anchor = AnchorStyles.None;
-            button3.Font = new Font("Segoe UI", 12F);
-            button3.Location = new Point(430, 373);
-            button3.Margin = new Padding(4, 3, 4, 3);
-            button3.Name = "button3";
-            button3.Size = new Size(129, 45);
-            button3.TabIndex = 2;
-            button3.Text = "Reject All";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // label1
-            // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(276, 20);
-            label1.Margin = new Padding(4, 0, 4, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(269, 37);
-            label1.TabIndex = 3;
-            label1.Text = "Manage Enrollment";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(4, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Back";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click_1;
+            Action.HeaderText = "Action";
+            Action.MinimumWidth = 6;
+            Action.Name = "Action";
+            Action.Text = "Remove";
+            Action.Width = 125;
             // 
             // InstructorManageEnrollment
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(801, 450);
+            ClientSize = new Size(915, 600);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(dataGridView1);
-            Margin = new Padding(4, 3, 4, 3);
+            Margin = new Padding(5, 4, 5, 4);
             Name = "InstructorManageEnrollment";
             Text = "InstructorManageEnrollment";
             Load += InstructorManageEnrollment_Load;
@@ -146,12 +137,12 @@
 
         #endregion
         private DataGridView dataGridView1;
+        private Label label1;
+        private Button button1;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
         private DataGridViewTextBoxColumn Column3;
+        private DataGridViewButtonColumn Action;
         private Button button2;
-        private Button button3;
-        private Label label1;
-        private Button button1;
     }
 }
