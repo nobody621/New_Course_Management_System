@@ -1,16 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-
+using System.Windows.Forms;
 namespace Course_Management_System
 {
-    public class GradeDataAccess
+    public class GradeDataAccess : IDataAccess<Grade>
     {
         private readonly DatabaseHelper _dbHelper;
-
         public GradeDataAccess(DatabaseHelper dbHelper)
         {
             _dbHelper = dbHelper;
+        }
+        public bool Add(Grade grade)
+        {
+            return AddGrade(grade);
+        }
+        public bool Delete(int gradeId)
+        {
+            return DeleteGrade(gradeId);
+        }
+        public bool Update(Grade grade)
+        {
+            return UpdateGrade(grade);
+        }
+        public List<Grade> GetAll()
+        {
+            return GetAllGrades();
         }
 
         public List<Grade> GetAllGrades()
@@ -78,7 +93,6 @@ namespace Course_Management_System
                                     StudentName = reader.GetString("Username"),
                                     AssignmentTitle = reader.GetString("AssignmentTitle"),
                                     CourseName = reader.GetString("CourseName")
-
                                 });
                             }
                         }
@@ -91,7 +105,6 @@ namespace Course_Management_System
             }
             return grades;
         }
-
         public bool AddGrade(Grade grade)
         {
             try
@@ -110,13 +123,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error adding Grade: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool UpdateGrade(Grade grade)
         {
             try
@@ -136,13 +153,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error updating Grade: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool DeleteGrade(int gradeId)
         {
             try
@@ -159,13 +180,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting grade: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public Grade GetGradeById(int gradeId)
         {
             try

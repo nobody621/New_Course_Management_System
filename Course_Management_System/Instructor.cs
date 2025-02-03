@@ -1,11 +1,21 @@
 ﻿using System;
-
 namespace Course_Management_System
 {
     public class Instructor : Person
     {
-        public int InstructorId { get; set; } // Specific to instructors
-
+        private int _instructorId;
+        public int InstructorId
+        {
+            get { return _instructorId; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Instructor Id cannot be less than 0");
+                }
+                _instructorId = value;
+            }
+        }
         public override bool Login(string password)
         {
             // Implement instructor-specific login logic here

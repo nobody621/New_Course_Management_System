@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace Course_Management_System
 {
-    public class AssignmentDataAccess
+    public class AssignmentDataAccess : IDataAccess<Assignment>
     {
         private readonly DatabaseHelper _dbHelper;
 
@@ -12,7 +13,22 @@ namespace Course_Management_System
         {
             _dbHelper = dbHelper;
         }
-
+        public bool Add(Assignment assignment)
+        {
+            return AddAssignment(assignment);
+        }
+        public bool Delete(int assignmentId)
+        {
+            return DeleteAssignment(assignmentId);
+        }
+        public bool Update(Assignment assignment)
+        {
+            return UpdateAssignment(assignment);
+        }
+        public List<Assignment> GetAll()
+        {
+            return GetAllAssignments();
+        }
         public List<Assignment> GetAllAssignments()
         {
             List<Assignment> assignments = new List<Assignment>();
@@ -47,9 +63,13 @@ namespace Course_Management_System
             }
             return assignments;
         }
-
         public bool AddAssignment(Assignment assignment)
         {
+            if (string.IsNullOrEmpty(assignment.Title) || string.IsNullOrEmpty(assignment.Description))
+            {
+                MessageBox.Show("All fields are required", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -69,13 +89,17 @@ namespace Course_Management_System
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error adding assignment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool UpdateAssignment(Assignment assignment)
         {
+            if (string.IsNullOrEmpty(assignment.Title) || string.IsNullOrEmpty(assignment.Description))
+            {
+                MessageBox.Show("All fields are required", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -96,7 +120,7 @@ namespace Course_Management_System
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error updating assignment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
@@ -119,7 +143,7 @@ namespace Course_Management_System
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting assignment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }

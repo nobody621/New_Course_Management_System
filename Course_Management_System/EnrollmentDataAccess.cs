@@ -1,18 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-
+using System.Windows.Forms;
 namespace Course_Management_System
 {
-    public class EnrollmentDataAccess
+    public class EnrollmentDataAccess : IDataAccess<Enrollment>
     {
         private readonly DatabaseHelper _dbHelper;
-
         public EnrollmentDataAccess(DatabaseHelper dbHelper)
         {
             _dbHelper = dbHelper;
         }
-
+        public bool Add(Enrollment enrollment)
+        {
+            return AddEnrollment(enrollment);
+        }
+        public bool Delete(int enrollmentId)
+        {
+            return DeleteEnrollment(enrollmentId);
+        }
+        public bool Update(Enrollment enrollment)
+        {
+            return UpdateEnrollment(enrollment);
+        }
+        public List<Enrollment> GetAll()
+        {
+            return GetAllEnrollmentRequests();
+        }
         public List<Enrollment> GetAllEnrollmentRequests()
         {
             List<Enrollment> enrollments = new List<Enrollment>();
@@ -47,9 +61,13 @@ namespace Course_Management_System
             }
             return enrollments;
         }
-
         public bool AddEnrollment(Enrollment enrollment)
         {
+            if (string.IsNullOrEmpty(enrollment.Status))
+            {
+                MessageBox.Show("Status is required", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to invalid input
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -67,15 +85,24 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error adding Enrollment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool UpdateEnrollment(Enrollment enrollment)
         {
+            if (string.IsNullOrEmpty(enrollment.Status))
+            {
+                MessageBox.Show("Status is required", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Indicate failure due to invalid input
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -94,13 +121,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error updating Enrollment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool DeleteEnrollment(int enrollmentId)
         {
             try
@@ -117,13 +148,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting enrollment: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public Enrollment GetEnrollmentById(int enrollmentId)
         {
             try
