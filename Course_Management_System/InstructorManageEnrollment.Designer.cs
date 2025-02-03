@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InstructorManageEnrollment));
             dataGridView1 = new DataGridView();
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Action = new DataGridViewButtonColumn();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -51,6 +51,35 @@
             dataGridView1.Size = new Size(887, 421);
             dataGridView1.TabIndex = 1;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column1.HeaderText = "Student Name";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column2.HeaderText = "Course Name";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Column3.HeaderText = "Request Data";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            // 
+            // Action
+            // 
+            Action.HeaderText = "Action";
+            Action.MinimumWidth = 6;
+            Action.Name = "Action";
+            Action.Text = "Remove";
+            Action.Width = 125;
             // 
             // label1
             // 
@@ -85,35 +114,7 @@
             button2.TabIndex = 7;
             button2.Text = "Enroll";
             button2.UseVisualStyleBackColor = true;
-            // 
-            // Column1
-            // 
-            Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column1.HeaderText = "Student Name";
-            Column1.MinimumWidth = 6;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column2.HeaderText = "Course Name";
-            Column2.MinimumWidth = 6;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Column3.HeaderText = "Request Data";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
-            // 
-            // Action
-            // 
-            Action.HeaderText = "Action";
-            Action.MinimumWidth = 6;
-            Action.Name = "Action";
-            Action.Text = "Remove";
-            Action.Width = 125;
+            button2.Click += button2_Click_1;
             // 
             // InstructorManageEnrollment
             // 

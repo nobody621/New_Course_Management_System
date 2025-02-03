@@ -61,9 +61,13 @@ namespace Course_Management_System
             {
                 if (row.Cells["Enroll"].Value != null && (bool)row.Cells["Enroll"].Value == true)
                 {
-                    selectedCourses.Add((int)row.Cells["CourseID"].Value);
+                    if (row.DataBoundItem is Course course)
+                    {
+                        selectedCourses.Add(course.CourseID);
+                    }
                 }
             }
+
             foreach (int courseId in selectedCourses)
             {
                 Enrollment enrollment = new Enrollment()

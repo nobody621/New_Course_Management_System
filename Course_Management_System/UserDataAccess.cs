@@ -64,6 +64,60 @@ namespace Course_Management_System
                 return false;
             }
         }
+        public Person GetUserById(int userId)
+        {
+            try
+            {
+                using (MySqlConnection connection = _dbHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "SELECT UserID, Username, Password, Role, Email FROM Users WHERE UserID = @UserID";
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@UserID", userId);
+                        using (MySqlDataReader reader = command.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string role = reader.GetString("Role");
+                                if (role == "student")
+                                {
+                                    return new Student
+                                    {
+                                        UserID = reader.GetInt32("UserID"),
+                                        Username = reader.GetString("Username"),
+                                        Password = reader.GetString("Password"), // This is HASHED PW
+                                        Email = reader.GetString("Email")
+                                    };
+                                }
+                                else if (role == "instructor")
+                                {
+                                    return new Instructor
+                                    {
+                                        UserID = reader.GetInt32("UserID"),
+                                        Username = reader.GetString("Username"),
+                                        Password = reader.GetString("Password"), // This is HASHED PW
+                                        Email = reader.GetString("Email")
+                                    };
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+            return null;
+        }
         public Person GetUserByUsername(string username)
         {
             try

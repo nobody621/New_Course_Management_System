@@ -1653,19 +1653,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\abdul\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PULL\\Course_Management_System\\Course_Management_System.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\Course_Management_System.csproj",
       "projectName": "Course_Management_System",
-      "projectPath": "C:\\PULL\\Course_Management_System\\Course_Management_System.csproj",
-      "packagesPath": "C:\\Users\\abdul\\.nuget\\packages\\",
-      "outputPath": "C:\\PULL\\Course_Management_System\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\Course_Management_System.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\abdul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
