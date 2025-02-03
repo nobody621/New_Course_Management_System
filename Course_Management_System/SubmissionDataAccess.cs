@@ -1,18 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace Course_Management_System
 {
-    public class SubmissionDataAccess
+    public class SubmissionDataAccess : IDataAccess<Submission>
     {
         private readonly DatabaseHelper _dbHelper;
-
         public SubmissionDataAccess(DatabaseHelper dbHelper)
         {
             _dbHelper = dbHelper;
         }
-
+        public bool Add(Submission submission)
+        {
+            return AddSubmission(submission);
+        }
+        public bool Delete(int submissionId)
+        {
+            return DeleteSubmission(submissionId);
+        }
+        public bool Update(Submission submission)
+        {
+            return UpdateSubmission(submission);
+        }
+        public List<Submission> GetAll()
+        {
+            return GetAllSubmissions();
+        }
         public List<Submission> GetAllSubmissions()
         {
             List<Submission> submissions = new List<Submission>();
@@ -41,15 +56,23 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error getting submissions: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return submissions;
         }
-
         public bool AddSubmission(Submission submission)
         {
+            if (string.IsNullOrEmpty(submission.FilePath))
+            {
+                MessageBox.Show("File path is required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -67,15 +90,24 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error adding submission: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool UpdateSubmission(Submission submission)
         {
+            if (string.IsNullOrEmpty(submission.FilePath))
+            {
+                MessageBox.Show("File path is required.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             try
             {
                 using (MySqlConnection connection = _dbHelper.GetConnection())
@@ -94,13 +126,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error updating submission: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public bool DeleteSubmission(int submissionId)
         {
             try
@@ -117,13 +153,17 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error deleting submission: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         public Submission GetSubmissionById(int submissionId)
         {
             try

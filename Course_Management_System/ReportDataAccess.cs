@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace Course_Management_System
 {
-    public class ReportDataAccess
+    public class ReportDataAccess : IDataAccess<Report>
     {
         private readonly DatabaseHelper _dbHelper;
 
@@ -12,7 +13,22 @@ namespace Course_Management_System
         {
             _dbHelper = dbHelper;
         }
-
+        public bool Add(Report entity)
+        {
+            throw new NotImplementedException();
+        }
+        public bool Delete(int entityId)
+        {
+            throw new NotImplementedException();
+        }
+        public bool Update(Report entity)
+        {
+            throw new NotImplementedException();
+        }
+        public List<Report> GetAll()
+        {
+            throw new NotImplementedException();
+        }
         public List<Report> GenerateCourseReport(int courseId, DateTime fromDate, DateTime toDate)
         {
             List<Report> reports = new List<Report>();
@@ -52,9 +68,13 @@ namespace Course_Management_System
                     }
                 }
             }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show($"Database error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error getting course report: {ex.Message}");
+                MessageBox.Show($"Unexpected error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return reports;
         }
