@@ -73,6 +73,13 @@ namespace Course_Management_System
         {
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StdLoginForm stdLoginForm = new StdLoginForm(_student);
+            stdLoginForm.Show();
+            this.Hide(); 
+        }
     }
 
     public class EnrolledCourseDisplay
