@@ -28,14 +28,22 @@ namespace Course_Management_System
         }
         private void LoadCourses()
         {
+            dataGridView1.AutoGenerateColumns = false;
+            // Clear existing columns
+            dataGridView1.Columns.Clear();
+            // Add columns with specific headers
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "CourseName", HeaderText = "Course Name", DataPropertyName = "CourseName" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Description", HeaderText = "Description", DataPropertyName = "Description" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Duration", HeaderText = "Duration", DataPropertyName = "Duration" });
+            // Styling for Checkbox column, and adding the column
+            DataGridViewCheckBoxColumn checkBoxColumn = new DataGridViewCheckBoxColumn();
+            checkBoxColumn.Name = "Enroll";
+            checkBoxColumn.HeaderText = "Select Course";
+            dataGridView1.Columns.Add(checkBoxColumn);
+
             dataGridView1.DataSource = _courseDataAccess.GetAllCourses();
-            dataGridView1.Columns["CourseID"].Visible = false;
-            dataGridView1.Columns["Syllabus"].Visible = false;
-            dataGridView1.Columns.Add(new DataGridViewCheckBoxColumn
-            {
-                Name = "Enroll",
-                HeaderText = "Select Course"
-            });
+            // Setting the autosize mode
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
         private void label2_Click(object sender, EventArgs e)
         {

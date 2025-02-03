@@ -21,18 +21,31 @@ namespace Course_Management_System
             _dbHelper = new DatabaseHelper("localhost", "CourseManagementSystem", "root", "");
             _assignmentDataAccess = new AssignmentDataAccess(_dbHelper);
             _courseDataAccess = new CourseDataAccess(_dbHelper);
-            LoadAssignments();
-            LoadCourses();
-        }
-        private void LoadAssignments()
-        {
+            // Setting up the DataGridView here
+            dataGridView1.AutoGenerateColumns = false;
+            // Clear existing columns
+            dataGridView1.Columns.Clear();
+            // Add columns with specific headers
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Title", HeaderText = "Assignment Title", DataPropertyName = "Title" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Description", HeaderText = "Description", DataPropertyName = "Description" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "DueDate", HeaderText = "Due Date", DataPropertyName = "DueDate" });
+
             dataGridView1.DataSource = _assignmentDataAccess.GetAllAssignments();
-        }
-        private void LoadCourses()
-        {
+
+            // Setting the combobox
             comboBox1.DataSource = _courseDataAccess.GetAllCourses();
             comboBox1.DisplayMember = "CourseName";
             comboBox1.ValueMember = "CourseID";
+
+            this.WindowState = FormWindowState.Maximized;
+        }
+        private void LoadAssignments()
+        {
+
+        }
+        private void LoadCourses()
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,7 +96,7 @@ namespace Course_Management_System
             if (_assignmentDataAccess.AddAssignment(assignment))
             {
                 MessageBox.Show("Assignment Saved", "Confirmation", MessageBoxButtons.OK);
-                LoadAssignments();
+                dataGridView1.DataSource = _assignmentDataAccess.GetAllAssignments();
             }
             else
             {
@@ -102,7 +115,7 @@ namespace Course_Management_System
 
         private void InstructorAssignments_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+
         }
     }
 }

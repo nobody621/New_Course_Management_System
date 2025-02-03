@@ -19,12 +19,24 @@ namespace Course_Management_System
             InitializeComponent();
             _dbHelper = new DatabaseHelper("localhost", "CourseManagementSystem", "root", "");
             _enrollmentDataAccess = new EnrollmentDataAccess(_dbHelper);
-            LoadEnrollments();
+            // Setting up the DataGridView here
+            dataGridView1.AutoGenerateColumns = false;
+            // Clear existing columns
+            dataGridView1.Columns.Clear();
+            // Add columns with specific headers
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "EnrollmentID", HeaderText = "Enrollment ID", DataPropertyName = "EnrollmentID" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "UserID", HeaderText = "User ID", DataPropertyName = "UserID" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "CourseID", HeaderText = "Course ID", DataPropertyName = "CourseID" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "RequestDate", HeaderText = "Request Date", DataPropertyName = "RequestDate" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Status", HeaderText = "Status", DataPropertyName = "Status" });
+            dataGridView1.DataSource = _enrollmentDataAccess.GetAllEnrollmentRequests();
+            this.WindowState = FormWindowState.Maximized;
+
         }
 
         private void LoadEnrollments()
         {
-            dataGridView1.DataSource = _enrollmentDataAccess.GetAllEnrollmentRequests();
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -32,12 +44,10 @@ namespace Course_Management_System
             this.Hide();
             dashboard.Show();
         }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             // Approve all logic
@@ -53,7 +63,7 @@ namespace Course_Management_System
                     }
 
                 }
-                LoadEnrollments();
+                dataGridView1.DataSource = _enrollmentDataAccess.GetAllEnrollmentRequests(); ;
                 MessageBox.Show("All enrollments are approved", "Confirmation", MessageBoxButtons.OK);
             }
             else
@@ -78,7 +88,7 @@ namespace Course_Management_System
                     }
 
                 }
-                LoadEnrollments();
+                dataGridView1.DataSource = _enrollmentDataAccess.GetAllEnrollmentRequests(); ;
                 MessageBox.Show("All enrollments are rejected", "Confirmation", MessageBoxButtons.OK);
             }
             else
@@ -93,10 +103,8 @@ namespace Course_Management_System
             instructorDashboard.Show();
             this.Hide();
         }
-
         private void InstructorManageEnrollment_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
         }
     }
 }
