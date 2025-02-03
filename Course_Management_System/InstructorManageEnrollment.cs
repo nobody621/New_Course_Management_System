@@ -41,8 +41,8 @@ namespace Course_Management_System
 
             LoadEnrollments();
             this.WindowState = FormWindowState.Maximized;
-        }
 
+        }
         private void LoadEnrollments()
         {
             List<Enrollment> enrollments = _enrollmentDataAccess.GetAllEnrollmentRequests();
@@ -50,7 +50,7 @@ namespace Course_Management_System
             foreach (Enrollment enrollment in enrollments)
             {
                 Course course = _courseDataAccess.GetAllCourses().FirstOrDefault(c => c.CourseID == enrollment.CourseID);
-                Person user = _userDataAccess.GetUserById(enrollment.UserID);
+                Person user = _userDataAccess.GetUserByUsername(enrollment.UserID.ToString());
                 if (course != null && user != null)
                 {
                     displayEnrollments.Add(new EnrollmentDisplay
@@ -69,6 +69,7 @@ namespace Course_Management_System
                 {
                     MessageBox.Show($"Error loading enrollment with enrollment ID = {enrollment.EnrollmentID}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+
             }
             dataGridView1.DataSource = displayEnrollments;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -99,7 +100,6 @@ namespace Course_Management_System
                         {
                             MessageBox.Show("Error approving Enrollment", "Error", MessageBoxButtons.OK);
                         }
-
                     }
                     else if (dataGridView1.Rows[e.RowIndex].Cells["Action"].Value.ToString().ToLower() == "deny")
                     {
@@ -125,7 +125,6 @@ namespace Course_Management_System
                 }
             }
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             // Approve all logic
@@ -162,7 +161,6 @@ namespace Course_Management_System
                         enrollment.Status = "rejected";
                         _enrollmentDataAccess.UpdateEnrollment(enrollment);
                     }
-
                 }
                 LoadEnrollments();
                 MessageBox.Show("All enrollments are rejected", "Confirmation", MessageBoxButtons.OK);

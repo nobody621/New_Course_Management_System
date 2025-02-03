@@ -29,37 +29,34 @@ namespace Course_Management_System
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Title", HeaderText = "Assignment Title", DataPropertyName = "Title" });
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Description", HeaderText = "Description", DataPropertyName = "Description" });
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "DueDate", HeaderText = "Due Date", DataPropertyName = "DueDate" });
-
-            dataGridView1.DataSource = _assignmentDataAccess.GetAllAssignments();
+            LoadAssignments();
 
             // Setting the combobox
             comboBox1.DataSource = _courseDataAccess.GetAllCourses();
             comboBox1.DisplayMember = "CourseName";
             comboBox1.ValueMember = "CourseID";
-
             this.WindowState = FormWindowState.Maximized;
         }
         private void LoadAssignments()
         {
+            dataGridView1.DataSource = _assignmentDataAccess.GetAllAssignments();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
         private void LoadCourses()
         {
 
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             InstructorDashboard dashboard = new InstructorDashboard();
             this.Hide();
             dashboard.Show();
         }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -96,7 +93,7 @@ namespace Course_Management_System
             if (_assignmentDataAccess.AddAssignment(assignment))
             {
                 MessageBox.Show("Assignment Saved", "Confirmation", MessageBoxButtons.OK);
-                dataGridView1.DataSource = _assignmentDataAccess.GetAllAssignments();
+                LoadAssignments();
             }
             else
             {

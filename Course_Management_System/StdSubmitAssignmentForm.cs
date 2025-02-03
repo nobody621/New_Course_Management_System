@@ -18,8 +18,8 @@ namespace Course_Management_System
         private SubmissionDataAccess _submissionDataAccess;
         private CourseDataAccess _courseDataAccess;
         private Student _student;
-
         private string _filePath;
+
         public StdSubmitAssignmentForm(Person student)
         {
             InitializeComponent();
@@ -28,7 +28,17 @@ namespace Course_Management_System
             _submissionDataAccess = new SubmissionDataAccess(_dbHelper);
             _courseDataAccess = new CourseDataAccess(_dbHelper);
             _student = (Student)student;
+            // Setting up the DataGridView here
+            dataGridView1.AutoGenerateColumns = false;
+            // Clear existing columns
+            dataGridView1.Columns.Clear();
+            // Add columns with specific headers
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "CourseName", HeaderText = "Course Name", DataPropertyName = "CourseName" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "AssignmentTitle", HeaderText = "Assignment Title", DataPropertyName = "AssignmentTitle" });
+            dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "DueDate", HeaderText = "Due Date", DataPropertyName = "DueDate" });
             LoadAssignments();
+            this.WindowState = FormWindowState.Maximized;
+
         }
         private void LoadAssignments()
         {
@@ -40,6 +50,7 @@ namespace Course_Management_System
                 List<Assignment> courseAssignments = _assignmentDataAccess.GetAllAssignments().Where(assignment => assignment.CourseID == enrollment.CourseID).ToList();
                 assignments.AddRange(courseAssignments);
             }
+
             // Create a list to show only specific information in UI.
             List<AssignmentDisplay> displayAssignments = new List<AssignmentDisplay>();
             foreach (Assignment assignment in assignments)
@@ -51,13 +62,15 @@ namespace Course_Management_System
                     DueDate = assignment.DueDate,
                     CourseName = course.CourseName,
                     AssignmentId = assignment.AssignmentID
+
                 });
             }
             dataGridView1.DataSource = displayAssignments;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            StdLoginForm stdLogin = new StdLoginForm(_student); // Pass the student object
+            StdLoginForm stdLogin = new StdLoginForm(_student);
             this.Hide();
             stdLogin.Show();
         }
@@ -72,22 +85,29 @@ namespace Course_Management_System
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
+
         }
         private void button3_Click(object sender, EventArgs e)
         {
             //Get selected assignment id
             if (dataGridView1.SelectedRows.Count > 0)
             {
-                int assignmentId = ((AssignmentDisplay)dataGridView1.SelectedRows[0].DataBoundItem).AssignmentId;
+                AssignmentDisplay selectedAssignment = (AssignmentDisplay)dataGridView1.SelectedRows[0].DataBoundItem;
                 Submission submission = new Submission()
                 {
-                    AssignmentID = assignmentId,
+                    AssignmentID = selectedAssignment.AssignmentId,
                     UserID = _student.UserID,
                     SubmissionDate = DateTime.Now,
                     FilePath = _filePath
                 };
-                _submissionDataAccess.AddSubmission(submission);
-                MessageBox.Show("Assignment Submitted", "Confirmation", MessageBoxButtons.OK);
+                if (_submissionDataAccess.AddSubmission(submission))
+                {
+                    MessageBox.Show("Assignment Submitted", "Confirmation", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("Error submitting assignment", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
@@ -97,10 +117,9 @@ namespace Course_Management_System
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
         }
-
         private void StdSubmitAssignmentForm_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+
         }
     }
     public class AssignmentDisplay

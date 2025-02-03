@@ -24,8 +24,13 @@ namespace Course_Management_System
             _courseDataAccess = new CourseDataAccess(_dbHelper);
             _enrollmentDataAccess = new EnrollmentDataAccess(_dbHelper);
             _student = (Student)student;
+            // Setting the autosize mode
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            // Make the form open up in maximized view
+            this.WindowState = FormWindowState.Maximized;
             LoadCourses();
         }
+
         private void LoadCourses()
         {
             dataGridView1.AutoGenerateColumns = false;
@@ -35,25 +40,27 @@ namespace Course_Management_System
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "CourseName", HeaderText = "Course Name", DataPropertyName = "CourseName" });
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Description", HeaderText = "Description", DataPropertyName = "Description" });
             dataGridView1.Columns.Add(new DataGridViewTextBoxColumn { Name = "Duration", HeaderText = "Duration", DataPropertyName = "Duration" });
-            // Styling for Checkbox column, and adding the column
-            DataGridViewCheckBoxColumn checkBoxColumn = new DataGridViewCheckBoxColumn();
-            checkBoxColumn.Name = "Enroll";
-            checkBoxColumn.HeaderText = "Select Course";
-            dataGridView1.Columns.Add(checkBoxColumn);
+            dataGridView1.Columns.Add(new DataGridViewCheckBoxColumn
+            {
+                Name = "Enroll",
+                HeaderText = "Select Course"
+            });
 
             dataGridView1.DataSource = _courseDataAccess.GetAllCourses();
-            // Setting the autosize mode
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
+
         private void label2_Click(object sender, EventArgs e)
         {
+
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            StdLoginForm stdlogin = new StdLoginForm(_student); // Pass the student object
+            StdLoginForm stdlogin = new StdLoginForm(_student); // Pass the Student object
             this.Hide();
             stdlogin.Show();
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
             List<int> selectedCourses = new List<int>();
@@ -67,6 +74,11 @@ namespace Course_Management_System
                     }
                 }
             }
+            if (selectedCourses.Count == 0)
+            {
+                MessageBox.Show("Please select at least one course to enroll", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             foreach (int courseId in selectedCourses)
             {
@@ -77,20 +89,27 @@ namespace Course_Management_System
                     RequestDate = DateTime.Now,
                     Status = "pending"
                 };
-                _enrollmentDataAccess.AddEnrollment(enrollment);
+                if (_enrollmentDataAccess.AddEnrollment(enrollment))
+                {
+                    MessageBox.Show("Enrollment request submitted", "Confirmation", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show("Error submitting enrollment request.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            MessageBox.Show("Enrollment request submitted", "Confirmation", MessageBoxButtons.OK);
         }
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-        }
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
+
         }
 
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
         private void StdCourseCatalogForm_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

@@ -39,6 +39,10 @@ namespace Course_Management_System
             this.WindowState = FormWindowState.Maximized;
 
         }
+        private void LoadCourses()
+        {
+
+        }
         private void label5_Click(object sender, EventArgs e)
         {
 
@@ -73,16 +77,24 @@ namespace Course_Management_System
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+
         }
+
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
         }
+
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
+
         }
+
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
+
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string courseName = textBox1.Text;
@@ -95,6 +107,7 @@ namespace Course_Management_System
                 MessageBox.Show("Please Fill all the fields", "Error", MessageBoxButtons.OK);
                 return;
             }
+
             Course course = new Course { CourseName = courseName, Description = courseDescription, Duration = courseDuration, Syllabus = courseSyllabus };
             if (_courseDataAccess.AddCourse(course))
             {

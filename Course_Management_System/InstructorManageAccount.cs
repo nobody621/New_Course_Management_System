@@ -15,6 +15,7 @@ namespace Course_Management_System
         public InstructorManageAccount()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,7 +27,6 @@ namespace Course_Management_System
 
         private void InstructorManageAccount_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

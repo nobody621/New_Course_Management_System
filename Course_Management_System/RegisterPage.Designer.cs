@@ -44,9 +44,10 @@
             // pictureBox1
             // 
             pictureBox1.Anchor = AnchorStyles.None;
-            pictureBox1.Location = new Point(182, 78);
+            pictureBox1.Location = new Point(208, 104);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(434, 348);
+            pictureBox1.Size = new Size(496, 464);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -56,17 +57,18 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(320, 18);
+            label1.Location = new Point(366, 24);
             label1.Name = "label1";
-            label1.Size = new Size(140, 37);
+            label1.Size = new Size(174, 46);
             label1.TabIndex = 1;
             label1.Text = "REGISTER";
             // 
             // button1
             // 
-            button1.Location = new Point(2, 3);
+            button1.Location = new Point(2, 4);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 2;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = true;
@@ -77,9 +79,9 @@
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label2.Location = new Point(246, 153);
+            label2.Location = new Point(281, 204);
             label2.Name = "label2";
-            label2.Size = new Size(87, 21);
+            label2.Size = new Size(106, 28);
             label2.TabIndex = 1;
             label2.Text = "Username";
             // 
@@ -88,9 +90,9 @@
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label3.Location = new Point(246, 220);
+            label3.Location = new Point(281, 293);
             label3.Name = "label3";
-            label3.Size = new Size(82, 21);
+            label3.Size = new Size(101, 28);
             label3.TabIndex = 1;
             label3.Text = "Password";
             // 
@@ -99,43 +101,50 @@
             label4.Anchor = AnchorStyles.None;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            label4.Location = new Point(246, 286);
+            label4.Location = new Point(281, 381);
             label4.Name = "label4";
-            label4.Size = new Size(53, 21);
+            label4.Size = new Size(64, 28);
             label4.TabIndex = 1;
             label4.Text = "Email";
             // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.None;
-            textBox1.Location = new Point(350, 155);
+            textBox1.Location = new Point(400, 207);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(195, 23);
+            textBox1.Size = new Size(222, 27);
             textBox1.TabIndex = 3;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
             textBox2.Anchor = AnchorStyles.None;
-            textBox2.Location = new Point(350, 217);
+            textBox2.Location = new Point(400, 289);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(195, 23);
+            textBox2.Size = new Size(222, 27);
             textBox2.TabIndex = 3;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox3
             // 
             textBox3.Anchor = AnchorStyles.None;
-            textBox3.Location = new Point(350, 288);
+            textBox3.Location = new Point(400, 384);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(195, 23);
+            textBox3.Size = new Size(222, 27);
             textBox3.TabIndex = 3;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // button2
             // 
             button2.Anchor = AnchorStyles.None;
             button2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(350, 356);
+            button2.Location = new Point(400, 475);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(110, 37);
+            button2.Size = new Size(126, 49);
             button2.TabIndex = 2;
             button2.Text = "Register";
             button2.UseVisualStyleBackColor = true;
@@ -143,11 +152,11 @@
             // 
             // RegisterPage
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.WhatsApp_Image_2025_01_19_at_14_12_29_e20950cf;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -158,6 +167,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "RegisterPage";
             Text = "RegisterPage";
             Load += RegisterPage_Load;

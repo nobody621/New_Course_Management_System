@@ -24,7 +24,7 @@ namespace Course_Management_System
             get { return _title; }
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
                     throw new ArgumentException("Assignment title cannot be null or empty.");
                 }
@@ -38,7 +38,7 @@ namespace Course_Management_System
             get { return _description; }
             set
             {
-                if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Assignment description cannot be null or empty.");
                 _description = value;
             }

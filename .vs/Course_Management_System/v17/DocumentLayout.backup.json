@@ -1,46 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\userdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdsubmitassignmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdmanageaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdcoursecatalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\startpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\startpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructortrackstudentperformance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanagecourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructormanageaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorgeneratereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructordashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\instructorassignments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\38th commit\\course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\stdenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\assignmentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\assignmentdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|c:\\users\\user\\desktop\\folders in\\sdam\\39th commit\\course_management_system\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5985D085-F098-48FC-8E66-E51A9BCBAAEC}|Course_Management_System\\Course_Management_System.csproj|solutionrelative:course_management_system\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,127 +111,288 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\UserDataAccess.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\UserDataAccess.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\UserDataAccess.cs",
-              "RelativeToolTip": "Course_Management_System\\UserDataAccess.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHcAAAAJAAAAAAAAAA==",
+              "Title": "StdSubmitAssignmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:17:03.286Z",
+              "WhenOpened": "2025-02-03T10:04:07.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StdCourseCatalogForm.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdCourseCatalogForm.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdCourseCatalogForm.cs",
-              "RelativeToolTip": "Course_Management_System\\StdCourseCatalogForm.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwFIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StdSubmitAssignmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdSubmitAssignmentForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdSubmitAssignmentForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdSubmitAssignmentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:50:22.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StdEnrollmentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdEnrollmentForm.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdEnrollmentForm.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T06:07:24.778Z",
+              "WhenOpened": "2025-02-03T10:04:06.022Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InstructorManageEnrollment.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAIwEoAAAAJAAAAAAAAAA==",
+              "Title": "StdManageAccountForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdManageAccountForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdManageAccountForm.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:15:37.78Z",
+              "WhenOpened": "2025-02-03T10:03:10.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstructorManageAccount.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageAccount.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageAccount.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageAccount.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageAccount.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "StdManageAccountForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdManageAccountForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdManageAccountForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdManageAccountForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdManageAccountForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:00:26.556Z",
+              "WhenOpened": "2025-02-03T10:03:07.969Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstructorManageEnrollment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorManageEnrollment.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "StdLoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdLoginForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdLoginForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdLoginForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdLoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:15:29.768Z",
+              "WhenOpened": "2025-02-03T10:03:06.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StdEnrollmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:02:02.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StdEnrollmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdEnrollmentForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:01:59.108Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "instructorGenerateReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\instructorGenerateReport.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\instructorGenerateReport.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\instructorGenerateReport.cs [Design]",
-              "RelativeToolTip": "Course_Management_System\\instructorGenerateReport.cs [Design]",
+              "Title": "StdCourseCatalogForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeToolTip": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:54:33.854Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "instructorGenerateReport.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\instructorGenerateReport.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\instructorGenerateReport.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\instructorGenerateReport.cs",
-              "RelativeToolTip": "Course_Management_System\\instructorGenerateReport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:57:19.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StdEnrollmentForm.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdEnrollmentForm.cs",
-              "RelativeDocumentMoniker": "Course_Management_System\\StdEnrollmentForm.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\StdEnrollmentForm.cs",
-              "RelativeToolTip": "Course_Management_System\\StdEnrollmentForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:45:46.694Z",
+              "WhenOpened": "2025-02-03T09:58:58.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "InstructorAssignments.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorAssignments.cs",
+              "Title": "StdCourseCatalogForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdCourseCatalogForm.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StdCourseCatalogForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StdCourseCatalogForm.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StdCourseCatalogForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:58:56.322Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StartPage.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\StartPage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\StartPage.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\StartPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:58:54.393Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InstructorTrackStudentPerformance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorTrackStudentPerformance.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorTrackStudentPerformance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:58:50.514Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InstructorManageEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAIwMMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:56:26.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InstructorManageEnrollment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageEnrollment.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageEnrollment.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageEnrollment.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageEnrollment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:56:24.803Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InstructorManageCourses.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:55:05.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InstructorManageCourses.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageCourses.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageCourses.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageCourses.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:55:02.834Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InstructorManageAccount.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageAccount.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageAccount.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageAccount.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:54:08.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InstructorManageAccount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageAccount.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorManageAccount.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorManageAccount.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorManageAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:54:06.771Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "instructorGenerateReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\instructorGenerateReport.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\instructorGenerateReport.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\instructorGenerateReport.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\instructorGenerateReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:53:51.822Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InstructorDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorDashboard.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorDashboard.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorDashboard.cs [Design]",
+              "RelativeToolTip": "Course_Management_System\\InstructorDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:53:40.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InstructorAssignments.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorAssignments.cs",
               "RelativeDocumentMoniker": "Course_Management_System\\InstructorAssignments.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\38th commit\\Course_Management_System\\InstructorAssignments.cs [Design]",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorAssignments.cs",
+              "RelativeToolTip": "Course_Management_System\\InstructorAssignments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:52:17.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InstructorAssignments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorAssignments.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\InstructorAssignments.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\InstructorAssignments.cs [Design]",
               "RelativeToolTip": "Course_Management_System\\InstructorAssignments.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:06:52.264Z",
+              "WhenOpened": "2025-02-03T09:52:10.467Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignmentDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\AssignmentDataAccess.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\AssignmentDataAccess.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\AssignmentDataAccess.cs",
+              "RelativeToolTip": "Course_Management_System\\AssignmentDataAccess.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:48:34.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\Assignment.cs",
+              "RelativeDocumentMoniker": "Course_Management_System\\Assignment.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\folders in\\SDAM\\39th commit\\Course_Management_System\\Assignment.cs",
+              "RelativeToolTip": "Course_Management_System\\Assignment.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T09:44:34.425Z",
+              "EditorCaption": ""
             }
           ]
         }

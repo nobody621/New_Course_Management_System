@@ -1,5 +1,4 @@
-﻿using Google.Protobuf.Compiler;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,11 +25,17 @@ namespace Course_Management_System
             _gradeDataAccess = new GradeDataAccess(_dbHelper);
             _courseDataAccess = new CourseDataAccess(_dbHelper);
             _student = (Student)student;
+            this.WindowState = FormWindowState.Maximized;
             LoadEnrollments();
         }
         private void LoadEnrollments()
         {
             List<Enrollment> enrollments = _enrollmentDataAccess.GetAllEnrollmentRequests();
+            if (enrollments == null)
+            {
+                MessageBox.Show("There was an issue loading the enrollments", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             enrollments = enrollments.Where(enrollment => enrollment.UserID == _student.UserID && enrollment.Status == "approved").ToList();
 
             var enrolledCourses = new List<EnrolledCourseDisplay>();
@@ -38,22 +43,31 @@ namespace Course_Management_System
             foreach (var enrollment in enrollments)
             {
                 Course course = _courseDataAccess.GetAllCourses().FirstOrDefault(course => course.CourseID == enrollment.CourseID);
-                List<Grade> grades = _gradeDataAccess.GetGradesByStudent(null); // TODO: implement a method to get grades by userID
-                grades = grades.Where(grade => grade.UserID == _student.UserID && grade.CourseName == course.CourseName).ToList();
-
-
-                double progress = 0;
-                if (grades != null && grades.Count() > 0)
+                if (course != null)
                 {
-                    progress = grades.Average(grade => grade.GradeValue);
+                    List<Grade> grades = _gradeDataAccess.GetGradesByStudent(null); // TODO: implement a method to get grades by userID
+                    grades = grades.Where(grade => grade.UserID == _student.UserID && grade.CourseName == course.CourseName).ToList();
+
+
+                    double progress = 0;
+                    if (grades != null && grades.Count() > 0)
+                    {
+                        progress = grades.Average(grade => grade.GradeValue);
+                    }
+
+                    enrolledCourses.Add(new EnrolledCourseDisplay
+                    {
+                        CourseName = course.CourseName,
+                        StartDate = enrollment.RequestDate,
+                        Progress = progress
+                    });
+                }
+                else
+                {
+                    MessageBox.Show($"Error Loading Course with id = {enrollment.CourseID}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
 
-                enrolledCourses.Add(new EnrolledCourseDisplay
-                {
-                    CourseName = course.CourseName,
-                    StartDate = enrollment.RequestDate,
-                    Progress = progress
-                });
             }
             dataGridView1.DataSource = enrolledCourses;
         }
@@ -63,25 +77,21 @@ namespace Course_Management_System
             this.Hide();
             stdcourse.Show();
         }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
-
         private void StdEnrollmentForm_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             StdLoginForm stdLoginForm = new StdLoginForm(_student);
             stdLoginForm.Show();
-            this.Hide(); 
+            this.Hide();
         }
     }
-
     public class EnrolledCourseDisplay
     {
         public string CourseName { get; set; }
